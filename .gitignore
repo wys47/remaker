@@ -1,11 +1,15 @@
-# generated files
-target/
-generated/
-
-# dependencies
-Dependencies.toml
-
-# config files
-Config.toml
-# the config files used for testing, Uncomment the following line if you want to commit the test config files
-#!**/tests/Config.toml
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
