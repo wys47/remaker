@@ -16,7 +16,8 @@
             android:layout_height="30dp"
             android:layout_gravity="right"
             android:background="@drawable/baseline_close_24"
-            android:id="@+id/gameUploadDialogClose"/>
+            android:id="@+id/gameUploadDialogClose"
+            android:onClick="gameUploadDialogClose"/>
 
         <TextView
             android:layout_width="280dp"
@@ -53,40 +54,11 @@
             android:textSize="20dp"
             android:textColor="@color/black"/>
         <LinearLayout
+            android:id="@+id/genreTagLayout"
             android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:orientation="vertical">
-
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="280dp"
-            android:layout_height="30dp"
-            android:text="게임 파일"
-            android:textSize="20dp"
-            android:textColor="@color/black"/>
-
-        <LinearLayout
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:id="@+id/fileURIText"
-                android:text="apk 파일을 선택"
-                android:textColor="@color/black"
-                android:textSize="18dp"/>
-
-            <Button
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:background="@drawable/baseline_attach_file_24"
-                android:onClick="onSelectFile"/>
+            android:orientation="vertical"
+            android:background="@color/white">
 
         </LinearLayout>
 
